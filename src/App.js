@@ -1,12 +1,15 @@
 import Cadastro from './paginas/cadastro/Cadastro';
 import Login from './paginas/login/Login';
-import CreateStyledGlobal from './styledGlobal';
+import Configuracoes from './paginas/configuracoes/configuracoes'
+import CreateGlobalStyle from './styledGlobal'
+
 
 function App() {
   return (
    <>
-   <CreateStyledGlobal/>
-   <Cadastro/>
+   <CreateGlobalStyle/>
+    <Configuracoes/>
+//     <Cadastro/>
    </>
   );
 }
