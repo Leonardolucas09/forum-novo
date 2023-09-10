@@ -13,13 +13,13 @@ function Cadastro() {
                 <LogoGrande src={logo}/>
                 <RoxoClaro>
                     <Titulo>Cadastro</Titulo>
-                    <div>
+                    <form>
                         <Input titulo='Usuário'/>
                         <Input titulo='Email'/>
                         <Input titulo='Senha'/>
                         <Input titulo='Confirmar Senha'/>
-                    </div>
                     <BotaoEntrar/>
+                    </form>
                 </RoxoClaro>
             </RoxoEscuro>
         </ContainerCadastro>

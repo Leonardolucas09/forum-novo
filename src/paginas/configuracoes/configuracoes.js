@@ -1,4 +1,3 @@
-import Atualizar from "../../components/atualizar/atualizarEmail";
 import { Icone } from "../../components/sideBar/style";
 import { DivNav, Fundo, Outros } from "./style";
 import config from '../../asssets/configuracoes.svg'
@@ -10,6 +9,11 @@ import {
     AccordionButton,
     AccordionPanel
   } from '@chakra-ui/react'
+import AtualizarSenha from "../../components/atualizar/atualizarSenha";
+import AtualizarEmail from "../../components/atualizar/atualizarEmail";
+import AtualizarNome from "../../components/atualizar/atualizarNome";
+import AtualizarBio from "../../components/atualizar/atualizarBio";
+import AtualizarFoto from "../../components/atualizar/atualizarFoto";
 
 function Configuracoes() {
     return(
@@ -27,10 +31,9 @@ function Configuracoes() {
                     </Outros>
                 </AccordionButton>
                 <AccordionPanel>
-                    <Atualizar/>
+                    <AtualizarNome/> 
                 </AccordionPanel>
                 </AccordionItem>
-
                 <AccordionItem>
                 <AccordionButton bg='#0F001A' border='none'>
                     <Outros>
@@ -39,7 +42,7 @@ function Configuracoes() {
                     </Outros>
                 </AccordionButton>
                 <AccordionPanel>
-                
+                    <AtualizarEmail/>
                 </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
@@ -50,7 +53,7 @@ function Configuracoes() {
                     </Outros>
                 </AccordionButton>
                 <AccordionPanel>
-                
+                    <AtualizarSenha/>
                 </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
@@ -61,7 +64,7 @@ function Configuracoes() {
                     </Outros>
                 </AccordionButton>
                 <AccordionPanel>
-                
+                    <AtualizarFoto/>
                 </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem>
@@ -72,11 +75,9 @@ function Configuracoes() {
                     </Outros>
                 </AccordionButton>
                 <AccordionPanel>
-                
+                    <AtualizarBio/>
                 </AccordionPanel>
                 </AccordionItem>
-            
-            
             </Accordion>
         </Fundo>
 

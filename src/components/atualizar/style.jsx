@@ -6,7 +6,7 @@ export const Fundo = styled.div`
     justify-content: center;
     padding: 30px;
     width: 75vw;
-    height: 50vh;
+    min-height: 50vh;
     color: #BFA1D2;
     background-color: #340058;
     font-family: Baskervville;
@@ -24,3 +24,19 @@ export const Escrever = styled.input`
     border: none;
     margin-bottom: 15px;
 ` 
+export const EscreverBio = styled.input`
+    display: flex; 
+    width: 65vw;
+    height: 90px;
+    background-color: #d9d9d9;
+    border: none;
+    margin-bottom: 15px; 
+`
+
+export const FtPerfil = styled.img`
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: 10px;
+    align-self: center;
+`

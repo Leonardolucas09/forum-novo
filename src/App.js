@@ -1,15 +1,12 @@
-import Cadastro from './paginas/cadastro/Cadastro';
-import Login from './paginas/login/Login';
-import Configuracoes from './paginas/configuracoes/configuracoes'
 import CreateGlobalStyle from './styledGlobal'
+import Rotas from './rotas/Rotas';
 
 
 function App() {
   return (
    <>
    <CreateGlobalStyle/>
-    <Configuracoes/>
-//     <Cadastro/>
+    <Rotas/>
    </>
   );
 }

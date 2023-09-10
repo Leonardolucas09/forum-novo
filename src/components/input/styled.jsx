@@ -12,9 +12,10 @@ export const Entrada = styled.input`
     border: none;
     box-shadow: 2px 2px grey;
     margin-bottom: 10px;
+    font-size: 20px;
 `
 
-export const TituloInput = styled.p`
+export const TituloInput = styled.label`
     color: #340058;
     font-size: 23px
 `

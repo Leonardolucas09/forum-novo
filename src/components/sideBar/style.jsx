@@ -12,7 +12,9 @@ export const Fundo = styled.div`
     gap: 20px;
 `
 
-export const Caminhos = styled.div`
+export const Caminhos = styled.button`
+    background-color: transparent;
+    border: none;
     display: flex;
     flex-direction: row;
     align-items: center; 

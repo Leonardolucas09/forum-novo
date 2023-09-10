@@ -1,16 +1,16 @@
 import Confirm from "../botoes/purple";
 import { Escrever, Fundo } from "./style";
 
-function AtualizarEmail() {
+function AtualizarNome() {
     return(
         <Fundo>
-            Antigo Email
+            Antigo usuário
             <Escrever/>
-            Novo Email
+            Novo usuário
             <Escrever/>
             <Confirm/>
         </Fundo>
     )
 }
 
-export default AtualizarEmail; 
+export default AtualizarNome; 

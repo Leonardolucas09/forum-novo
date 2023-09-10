@@ -31,6 +31,12 @@ export const RoxoClaro = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
 `
 
 export const Titulo = styled.h1`
@@ -39,8 +45,11 @@ export const Titulo = styled.h1`
     font-size: 45px;
 `
 
-export const CriarConta = styled.a`
+export const CriarConta = styled.button`
+    background-color: transparent;
+    border: none;
     color: #340058;
     font-size: 20px;
-    padding-left: 250px;
+    margin-left: 250px;
+    text-decoration: underline;
 `
