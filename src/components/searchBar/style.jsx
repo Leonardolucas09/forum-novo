@@ -13,7 +13,7 @@ export const Fundo = styled.header`
     border-left: 2px solid #6913A5;
     gap: 12px; 
 `
-export const CampoPesquisa = styled.div`
+export const CampoPesquisa = styled.input`
     align-items: center;
     width: 550px;
     height: 35px;
@@ -21,6 +21,7 @@ export const CampoPesquisa = styled.div`
     background-color: #d9d9d9;
     font-family: Baskervville;
     font-size: 24px;
+    border: none;
 
 `
 export const Lupa = styled.img`

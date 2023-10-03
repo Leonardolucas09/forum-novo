@@ -5,9 +5,11 @@ function AtualizarSenha() {
     return(
         <Fundo>
             Antiga senha
-            <Escrever/>
+            <Escrever type="password"/>
             Nova senha
-            <Escrever/>
+            <Escrever type="password"/>
+            Repetir nova senha
+            <Escrever type="password"/>
             <Confirm/>
         </Fundo>
     )

@@ -5,27 +5,28 @@ export const Fundo = styled.div`
     flex-direction: column; 
     padding: 20px;
     align-content: left;
-    width: 17.79vw;
+    width: 18vw;
     min-height: 100vh;
     background: #0F001A;
     border: 3px solid #6913A5;
     gap: 20px;
 `
 
-// <<<<<<< aninha
-// export const Caminhos = styled.button`
-//     background-color: transparent;
-//     border: none;
-// =======
-export const Caminhos = styled.div`
+
+export const Caminhos = styled.button`
     display: flex;
+    background-color: transparent;
+    border: none;
     flex-direction: row;
     align-items: center; 
     color: #BFA1D2;
     font-family: Baskervville;
     font-size: 24px;
     gap: 5px;
-`
+    &:hover{
+        text-decoration: underline;
+    }
+`   
 export const Menu = styled.div`
     display: flex;
     margin-top: 130px;

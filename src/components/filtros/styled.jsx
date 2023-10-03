@@ -7,37 +7,24 @@ export const ContainerFiltrosPrincipal = styled.div`
     display: flex;
     align-items: center;
 `
-export const ContainerFiltros = styled.div`
+export const ContainerFiltros = styled.button`
     width: 25%;
-    height: 90%;
+    height: 100%;
     display: flex;
     align-items: center;
     color: #BFA1D2;
     font-size: 24px;
     justify-content: center;
+    background-color: transparent;
+    border: none;
+    &:hover{
+        background-color: #6913A5;
+    }
 `
 
 
-export const Populares = styled.img`
-    width: 40px;
-    height: 50px;
+export const Icones = styled.img`
+    object-fit: cover;
     margin-right: 5px;
-`
-
-export const Melhores = styled.img`
-    width: 60px;
-    height: 90px;
-    margin-right: 5px;
-`
-
-export const Novos = styled.img`
-    width: 50px;
-    height: 70px;
-    margin-right: 5px;
-`
-
-export const Criar = styled.img`
-    width: 50px;
-    height: 70px;
-    margin-right: 5px;
+    height: 45px;
 `

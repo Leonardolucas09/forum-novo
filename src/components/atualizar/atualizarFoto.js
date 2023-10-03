@@ -12,6 +12,7 @@ function AtualizarFoto(props) {
             Mudar foto de perfil
             </h3>
             <FtPerfil src={props.foto} />
+            
             <Confirm/>
         </Fundo>
         </>
