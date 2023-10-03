@@ -4,22 +4,34 @@ import home from '../../asssets/home.svg'
 import perfil from '../../asssets/perfil.svg'
 import config from '../../asssets/configuracoes.svg'
 import imgLogo from '../../asssets/loginImagem.svg'
+import { useNavigate } from "react-router-dom";
 
 function Nav() {
+    const navigate = useNavigate()
+    const goToConfig = () => {
+        navigate('/configuracoes')
+    }
+    const goToPerfil = () => {
+        navigate('/perfil')
+    }
+    const goToHome = () => {
+        navigate('/home')
+    }
+
     return(
         <Fundo>
             <Logo src={logo}/>
             <Menu>
-                <Caminhos>
+                <Caminhos onClick={goToHome}>
                     <Icone src={home}/>
                     Home
                 </Caminhos>
-                <Caminhos>
+                <Caminhos onClick={goToPerfil}>
                     <Icone src={perfil}/>
                     Perfil
                 </Caminhos>
-                <Caminhos>
-                    <Icone src={config}/>
+                <Caminhos onClick={goToConfig}>
+                    <Icone src={config} />
                     Configurações
                 </Caminhos>
                 <ImgLogo src={imgLogo}/>

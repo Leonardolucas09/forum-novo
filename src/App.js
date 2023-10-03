@@ -1,14 +1,11 @@
-import Cadastro from './paginas/cadastro/Cadastro';
-import Login from './paginas/login/Login';
-import Configuracoes from './paginas/configuracoes/configuracoes'
-import CreateGlobalStyle from './styledGlobal'
-
+import Rota from './rotas/Rota';
+import CreateStyledGlobal from './styledGlobal';
 
 function App() {
   return (
    <>
-   <CreateGlobalStyle/>
-    <Configuracoes/>
+   <CreateStyledGlobal/>
+   <Rota/>
    </>
   );
 }

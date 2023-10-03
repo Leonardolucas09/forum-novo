@@ -39,8 +39,11 @@ export const Titulo = styled.h1`
     font-size: 45px;
 `
 
-export const CriarConta = styled.a`
+export const CriarConta = styled.button`
     color: #340058;
     font-size: 20px;
-    padding-left: 250px;
+    align-self: flex-end;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
 `

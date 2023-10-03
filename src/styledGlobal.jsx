@@ -7,4 +7,6 @@ export default createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Galindo', cursive;
         font-family: 'Baskervville', serif;
-}`
+}
+`
+

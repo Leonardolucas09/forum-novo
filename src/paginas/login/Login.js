@@ -2,10 +2,14 @@ import {ContainerLogin, CriarConta, LogoGrande, RoxoClaro, RoxoEscuro, Titulo} f
 import logo from '../../asssets/loginImagem.svg'
 import Input from '../../components/input/Input';
 import BotaoEntrar from '../../components/botaoEntar/BotaoEntrar';
-
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
-    
+    const navegar = useNavigate()
+    const goToCadastro = () => {
+        navegar('/cadastro')
+    }
+
     return(
         <>
         <ContainerLogin>
@@ -18,7 +22,7 @@ function Login() {
                         <Input titulo='Senha'/>
                     </div>
                     <BotaoEntrar/>
-                    <CriarConta>Criar Conta</CriarConta>
+                    <CriarConta onClick={goToCadastro}>Criar Conta</CriarConta>
                 </RoxoClaro>
             </RoxoEscuro>
         </ContainerLogin>

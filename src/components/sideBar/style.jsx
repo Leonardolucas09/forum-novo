@@ -12,6 +12,11 @@ export const Fundo = styled.div`
     gap: 20px;
 `
 
+// <<<<<<< aninha
+// export const Caminhos = styled.button`
+//     background-color: transparent;
+//     border: none;
+// =======
 export const Caminhos = styled.div`
     display: flex;
     flex-direction: row;
