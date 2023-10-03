@@ -31,12 +31,6 @@ export const RoxoClaro = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
 `
 
 export const Titulo = styled.h1`

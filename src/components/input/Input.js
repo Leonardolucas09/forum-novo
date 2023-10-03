@@ -8,10 +8,7 @@ function Input(props) {
         <>
         <DivInput>
             <TituloInput>{props.titulo}</TituloInput>
-            <Entrada 
-            type={props.type} 
-            value={props.value}
-            onChange={props.onChange}/>
+            <Entrada/>
         </DivInput>
         </>
     )

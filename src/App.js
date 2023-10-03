@@ -1,12 +1,11 @@
-import CreateGlobalStyle from './styledGlobal'
-import Rotas from './rotas/Rotas';
-
+import Rota from './rotas/Rota';
+import CreateStyledGlobal from './styledGlobal';
 
 function App() {
   return (
    <>
-   <CreateGlobalStyle/>
-    <Rotas/>
+   <CreateStyledGlobal/>
+   <Rota/>
    </>
   );
 }
