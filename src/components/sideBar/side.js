@@ -17,6 +17,7 @@ function Nav() {
     const goToHome = () => {
         navigate('/home')
     }
+
     return(
         <Fundo>
             <Logo src={logo}/>

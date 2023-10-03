@@ -4,12 +4,12 @@ import Input from '../../components/input/Input';
 import BotaoEntrar from '../../components/botaoEntar/BotaoEntrar';
 import { useNavigate } from 'react-router-dom';
 
-
 function Login() {
     const navegar = useNavigate()
     const goToCadastro = () => {
         navegar('/cadastro')
     }
+
     return(
         <>
         <ContainerLogin>
