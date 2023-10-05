@@ -1,7 +1,8 @@
 import Filtros from "../../components/filtros/Filtros";
+import Post from "../../components/post/Post";
 import Pesquisar from "../../components/searchBar/search";
 import Nav from "../../components/sideBar/side";
-import { ContainerHome } from "./styled";
+import { ContainerHome, Fundo } from "./styled";
 
 
 function Home() {
@@ -11,10 +12,12 @@ function Home() {
         <>
         <ContainerHome>
             <Nav/>
-            <div>
+            <Fundo>
                 <Pesquisar/>
                 <Filtros/>
-            </div>
+                <Post/>
+            </Fundo>
+            
         </ContainerHome>
         </>
     )

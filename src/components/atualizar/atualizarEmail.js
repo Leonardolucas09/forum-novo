@@ -5,9 +5,9 @@ function AtualizarEmail() {
     return(
         <Fundo>
             Antigo Email
-            <Escrever/>
+            <Escrever type='email' value='user123@gmail.com' disabled/>
             Novo Email
-            <Escrever/>
+            <Escrever type='email' />
             <Confirm/>
         </Fundo>
     )

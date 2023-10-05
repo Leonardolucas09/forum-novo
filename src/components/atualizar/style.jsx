@@ -23,6 +23,8 @@ export const Escrever = styled.input`
     background-color: #d9d9d9;
     border: none;
     margin-bottom: 15px;
+    font-size: 20px;
+    padding: 5px;
 ` 
 export const EscreverBio = styled.input`
     display: flex; 

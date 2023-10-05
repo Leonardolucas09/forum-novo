@@ -4,6 +4,7 @@ import home from '../../asssets/home.svg'
 import perfil from '../../asssets/perfil.svg'
 import config from '../../asssets/configuracoes.svg'
 import imgLogo from '../../asssets/loginImagem.svg'
+import criar from '../../asssets/criarPost.svg'
 import { useNavigate } from "react-router-dom";
 
 function Nav() {
@@ -16,6 +17,9 @@ function Nav() {
     }
     const goToHome = () => {
         navigate('/home')
+    }
+    const goToCriar = () => {
+        navigate('/criar-post')
     }
 
     return(
@@ -33,6 +37,10 @@ function Nav() {
                 <Caminhos onClick={goToConfig}>
                     <Icone src={config} />
                     Configurações
+                </Caminhos>
+                <Caminhos onClick={goToCriar}>
+                    <Icone src={criar} />
+                    Crie um post
                 </Caminhos>
                 <ImgLogo src={imgLogo}/>
             </Menu>

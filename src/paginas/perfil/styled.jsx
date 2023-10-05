@@ -73,7 +73,7 @@ export const TituloPostagens = styled.h2`
 `
 
 export const ContainerPostagens = styled.div`
-    width: 163vh;
-    height: 26vh;
+    width: 100%;
+    min-height: 30%;
     border: 3px solid #6913A5;
 `

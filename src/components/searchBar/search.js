@@ -6,7 +6,7 @@ function Pesquisar() {
         <>
             <Fundo>
                 <Lupa src={lupa} />
-                <CampoPesquisa>Pesquisar</CampoPesquisa>
+                <CampoPesquisa type="search" placeholder="Pesquisar"/>
             </Fundo>
         </>
     )

@@ -1,29 +1,29 @@
-import { ContainerFiltros, ContainerFiltrosPrincipal, Criar, Melhores, Novos, Populares } from "./styled";
-import popular from '../../asssets/maisPopulares.svg'
-import melhores from '../../asssets/melhores.svg'
-import novos from '../../asssets/novos.svg'
-import criar from '../../asssets/criarPost.svg'
+import { ContainerFiltros, ContainerFiltrosPrincipal, Icones } from "./styled";
+import humanas from '../../asssets/Humanas.png'
+import natureza from '../../asssets/Natureza.png'
+import linguagens from '../../asssets/Linguagens.png'
+import mat from '../../asssets/Matematica.png'
 
 function Filtros() {
     return(
         <>
         <ContainerFiltrosPrincipal>
-        <ContainerFiltros>
-        <Populares src={popular} />
-            Mais Populares
-        </ContainerFiltros>
-        <ContainerFiltros>
-        <Melhores src={melhores} />
-            Melhores
-        </ContainerFiltros>
-        <ContainerFiltros>
-        <Novos src={novos} />
-            Novos
-        </ContainerFiltros>
-        <ContainerFiltros>
-        <Criar src={criar} />
-            Crie um Post
-        </ContainerFiltros>
+            <ContainerFiltros>
+            <Icones src={humanas} />
+                Humanas
+            </ContainerFiltros>
+            <ContainerFiltros>
+            <Icones src={natureza} />
+                Natureza
+            </ContainerFiltros>
+            <ContainerFiltros>
+            <Icones src={linguagens} />
+                Linguagens
+            </ContainerFiltros>
+            <ContainerFiltros>
+            <Icones src={mat} />
+                Matematica
+            </ContainerFiltros>
         </ContainerFiltrosPrincipal>
         </>
     )

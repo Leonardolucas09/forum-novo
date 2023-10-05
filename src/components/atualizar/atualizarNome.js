@@ -5,7 +5,7 @@ function AtualizarNome() {
     return(
         <Fundo>
             Antigo usuário
-            <Escrever/>
+            <Escrever value='user123' disabled/>
             Novo usuário
             <Escrever/>
             <Confirm/>
